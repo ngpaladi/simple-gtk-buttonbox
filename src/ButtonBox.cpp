@@ -26,7 +26,7 @@ ButtonBox::ButtonBox(std::string title_string, std::vector<std::pair<std::string
         if (i == 0)
             grid.add(button[i]);
         else 
-            grid.attach_next_to(button[i], button[i-1], Gtk::POS_BOTTOM);
+            grid.attach_next_to(button[i], button[i-1], Gtk::POS_BOTTOM, 1, 1);
     }
     for (int i = 0; i < button_list.size(); i++)
     {
