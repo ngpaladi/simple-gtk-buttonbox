@@ -1,7 +1,7 @@
 #include <cstdlib>
-#include <gtkmm.h>
 #include <gtkmm/grid.h>
 #include <gtkmm/button.h>
+#include <gtkmm/window.h>
 #include <utility>
 #include <iostream>
 
